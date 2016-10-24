@@ -1,0 +1,6 @@
+<!-- BEGIN_INCLUDE(gitlab:greet) -->
+    <gitlab:greet config-ref="" friend="#[map-payload:friend]" />
+<!-- END_INCLUDE(gitlab:greet) -->
+<!-- BEGIN_INCLUDE(gitlab:add-entity) -->
+    <gitlab:add-entity config-ref="" key="id1"/>
+<!-- END_INCLUDE(gitlab:add-entity) -->
